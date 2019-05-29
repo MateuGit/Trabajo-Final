@@ -5,6 +5,8 @@
  */
 package Vehiculos;
 
+import residence.Residence;
+
 /**
  *
  * @author usuario
@@ -22,6 +24,9 @@ public abstract class Vehicle {
     private String destination;
     private boolean disponible;
     private double price;
+    private int rating;
+    private String origin;
+    
 
     public Vehicle() {
         this.id = (idCounter += 1);

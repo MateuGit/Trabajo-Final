@@ -5,6 +5,8 @@
  */
 package Vehiculos;
 
+import residence.Residence;
+
 /**
  *
  * @author usuario

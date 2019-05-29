@@ -5,6 +5,7 @@
  */
 package Package;
 
+import Recharges.Salable;
 import java.util.ArrayList;
 
 /**
@@ -14,9 +15,11 @@ import java.util.ArrayList;
 public class Package {
     private final int ID;
     private static int idCounter;
-  private  ArrayList<Salable> Items;
-  private int stock;
-  private boolean disponible;
+    private  ArrayList<Salable> Items;
+    private int stock;
+    private boolean disponible;
+    private boolean inOfert;
+    
 
     public Package() {
         ID=(idCounter+=1);
